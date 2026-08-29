@@ -56,7 +56,7 @@ Pilih salah satu dari template di bawah sesuai situasimu:
 
 ### A. Mulai Karakter dari Katalog `players.md` (Pertama Kali Dimainkan)
 ```
-analisis link berikut ini secara penuh dan pelajari dengan seksama untuk memulai permainan roleplay ini : https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/INDEX.md dan https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players/Inggo.md untuk Memulai permainan sebagai Inggo!
+analisis link berikut ini secara penuh dan pelajari dengan seksama untuk memulai permainan roleplay ini : https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/INDEX.md dan https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Inggo.md untuk Memulai permainan sebagai Inggo!
 ```
 *(Ganti `Inggo.md` dan `Inggo` dengan nama karaktermu, misal: `Tji_An_Coek.md`, `Nox.md`, `Jiang_Ziling.md`, dll.)*
 
@@ -64,7 +64,7 @@ analisis link berikut ini secara penuh dan pelajari dengan seksama untuk memulai
 ```
 Kamu akan jadi AI Game Master untuk roleplay Wuxian World. Baca dan ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran:
 
-https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/INDEX.md
+https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/INDEX.md
 
 Data karakterku (karakter baru, belum terdaftar di players.md):
 - Nama: [nama karaktermu]
@@ -75,7 +75,7 @@ Data karakterku (karakter baru, belum terdaftar di players.md):
 ```
 Lanjutkan roleplay Wuxian World sebagai AI GM. Ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran:
 
-https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/INDEX.md
+https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/INDEX.md
 
 Status karakterku terakhir (lanjutkan dari sini):
 [tempel ulang blok "Profil Karakter" terakhir dari sesi sebelumnya]
