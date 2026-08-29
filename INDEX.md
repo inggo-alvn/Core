@@ -11,7 +11,7 @@
 
 1. **Fetch `00_CORE_RULES_AI_GM.md`** (link di tabel §1) — WAJIB pertama, tanpa kecuali. File itu berisi aturan mutlak, anti-cheat, dan format respon wajib yang mengikat seluruh sesi. Jangan lanjut ke langkah berikutnya sebelum ini selesai dibaca.
 2. **Cek pesan pemain** untuk menentukan identitas & titik mulai karakter — ada 3 kemungkinan, jangan disamaratakan:
-   - **(a) Karakter terdaftar, baru pertama kali dimainkan** (nama cocok entri di `players.md`, TIDAK ada blok "Profil Karakter" yang ditempel/riwayat sebelumnya) → fetch `players.md` (link §1) atau langsung fetch file RAW karakter individual di `players/<Nama_Karakter>.md` (misal: `https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players/Inggo.md`), muat data awalnya sebagai **titik mulai** narasi. `players.md` & folder `players/` murni data awal statis yang dikelola admin — bukan save-state, lihat §3.
+   - **(a) Karakter terdaftar, baru pertama kali dimainkan** (nama cocok entri di `players.md`, TIDAK ada blok "Profil Karakter" yang ditempel/riwayat sebelumnya) ATAU **pemain menanyakan tentang karakter/player lain** → fetch `players.md` (link §1) atau langsung fetch file RAW karakter individual yang dituju di `players/<Nama_Karakter>.md` (misal: `https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Inggo.md`), muat data awalnya sebagai **titik mulai** narasi atau referensi informasi. `players.md` & folder `players/` murni data awal statis yang dikelola admin — bukan save-state, lihat §3.
    - **(b) Melanjutkan karakter yang sudah pernah dimainkan** (pemain menempel blok "Profil Karakter" dari sesi sebelumnya, atau riwayatnya masih ada di chat yang sama) → pakai kondisi TERKINI itu sebagai starting state. **JANGAN fetch `players.md` / `players/`** — isinya statis, tidak pernah mencerminkan progres yang sudah terjadi.
    - **(c) Karakter benar-benar baru** (nama tidak ada di `players.md` maupun riwayat manapun) → perlakukan sebagai karakter baru custom sesuai `00_CORE_RULES_AI_GM.md` §1.6, minta Nama + Lokasi Awal.
 3. **Tentukan lokasi karakter** (dari file karakter individual di `players/` atau dari input baru pemain), lalu fetch modul wilayah yang sesuai (`01`–`07`) dari tabel §1.
@@ -26,27 +26,27 @@
 
 | Kode | File | Link Raw | Isi Singkat |
 |---|---|---|---|
-| 00 | `00_CORE_RULES_AI_GM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/00_CORE_RULES_AI_GM.md | Aturan mutlak, anti-cheat, format respon wajib, cheat-sheet formula — **selalu difetch pertama** |
-| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/players.md | Katalog **data AWAL** karakter (statis, dikelola admin) — memuat link RAW ke file individual di `players/` |
-| 01 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/01_WORLD_OVERVIEW_AND_CAPITAL.md | Peta jarak dunia & Ibu Kota Tianjing |
-| 02 | `02_CENTRAL_PLAINS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/02_CENTRAL_PLAINS.md | Central Plains: kota, desa, sekte, NPC |
-| 03 | `03_AZURE_MOUNTAIN_RANGE.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/03_AZURE_MOUNTAIN_RANGE.md | Azure Mountain Range |
-| 04 | `04_SOUTHERN_DEMON_DOMAIN.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/04_SOUTHERN_DEMON_DOMAIN.md | Southern Demon Domain |
-| 05 | `05_EASTERN_SEA_REGION.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/05_EASTERN_SEA_REGION.md | Eastern Sea Region |
-| 06 | `06_NORTHERN_DESOLATE_TERRITORY.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/06_NORTHERN_DESOLATE_TERRITORY.md | Northern Desolate Territory |
-| 07 | `07_WESTERN_SACRED_DESERTS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/07_WESTERN_SACRED_DESERTS.md | Western Sacred Deserts |
-| 08 | `08_CROSS_REGION_ORGANIZATIONS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/08_CROSS_REGION_ORGANIZATIONS.md | Info broker, pegadaian, pembunuh bayaran, sanxiu, kriminal mortal |
-| 09 | `09_CULTIVATION_LAW_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/09_CULTIVATION_LAW_SYSTEM.md | Realm, Hukum kultivasi, breakthrough, tribulasi, karma |
-| 10 | `10_ECONOMY_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/10_ECONOMY_SYSTEM.md | Mata uang, tier/grade barang, harga jasa & aset |
-| 11 | `11_VITALITY_HUNGER_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/11_VITALITY_HUNGER_SYSTEM.md | Formula HP, status luka, kelaparan |
-| 12 | `12_COMBAT_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/12_COMBAT_SYSTEM.md | Giliran, initiative, damage, defense, escape |
-| 13 | `13_BESTIARY.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/13_BESTIARY.md | Monster & spirit beast per wilayah, ambush, loot |
+| 00 | `00_CORE_RULES_AI_GM.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/00_CORE_RULES_AI_GM.md | Aturan mutlak, anti-cheat, format respon wajib, cheat-sheet formula — **selalu difetch pertama** |
+| 👤 | `players.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players.md | Katalog **data AWAL** karakter (statis, dikelola admin) — memuat link RAW ke file individual di `players/` |
+| 01 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/01_WORLD_OVERVIEW_AND_CAPITAL.md | Peta jarak dunia & Ibu Kota Tianjing |
+| 02 | `02_CENTRAL_PLAINS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/02_CENTRAL_PLAINS.md | Central Plains: kota, desa, sekte, NPC |
+| 03 | `03_AZURE_MOUNTAIN_RANGE.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/03_AZURE_MOUNTAIN_RANGE.md | Azure Mountain Range |
+| 04 | `04_SOUTHERN_DEMON_DOMAIN.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/04_SOUTHERN_DEMON_DOMAIN.md | Southern Demon Domain |
+| 05 | `05_EASTERN_SEA_REGION.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/05_EASTERN_SEA_REGION.md | Eastern Sea Region |
+| 06 | `06_NORTHERN_DESOLATE_TERRITORY.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/06_NORTHERN_DESOLATE_TERRITORY.md | Northern Desolate Territory |
+| 07 | `07_WESTERN_SACRED_DESERTS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/07_WESTERN_SACRED_DESERTS.md | Western Sacred Deserts |
+| 08 | `08_CROSS_REGION_ORGANIZATIONS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/08_CROSS_REGION_ORGANIZATIONS.md | Info broker, pegadaian, pembunuh bayaran, sanxiu, kriminal mortal |
+| 09 | `09_CULTIVATION_LAW_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/09_CULTIVATION_LAW_SYSTEM.md | Realm, Hukum kultivasi, breakthrough, tribulasi, karma |
+| 10 | `10_ECONOMY_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/10_ECONOMY_SYSTEM.md | Mata uang, tier/grade barang, harga jasa & aset |
+| 11 | `11_VITALITY_HUNGER_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/11_VITALITY_HUNGER_SYSTEM.md | Formula HP, status luka, kelaparan |
+| 12 | `12_COMBAT_SYSTEM.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/12_COMBAT_SYSTEM.md | Giliran, initiative, damage, defense, escape |
+| 13 | `13_BESTIARY.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/13_BESTIARY.md | Monster & spirit beast per wilayah, ambush, loot |
 | 14–37 | *(24 file sekte/dojo/organisasi individual)* | — | Lihat **§1a** di bawah untuk daftar lengkap per-file — **JANGAN** fetch semuanya sekaligus, cari nama sekte yang relevan lalu fetch HANYA file itu |
-| 39 | `39_CUSTOM_EVENTS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/39_CUSTOM_EVENTS.md | **Event khusus & peristiwa dunia** — diisi Admin, AI wajib cek di awal sesi |
-| 40 | `40_CUSTOM_LAWS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/40_CUSTOM_LAWS.md | **Hukum Kultivasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
-| 41 | `41_CUSTOM_SECTS.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/41_CUSTOM_SECTS.md | **Sekte/Dojo/Organisasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
-| 42 | `42_CUSTOM_TECHNIQUES.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/42_CUSTOM_TECHNIQUES.md | **Teknik & Jurus Kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
-| — | `README.md` | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/README.md | Dokumentasi setup untuk manusia (jarang perlu difetch AI) |
+| 39 | `39_CUSTOM_EVENTS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/39_CUSTOM_EVENTS.md | **Event khusus & peristiwa dunia** — diisi Admin, AI wajib cek di awal sesi |
+| 40 | `40_CUSTOM_LAWS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/40_CUSTOM_LAWS.md | **Hukum Kultivasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
+| 41 | `41_CUSTOM_SECTS.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/41_CUSTOM_SECTS.md | **Sekte/Dojo/Organisasi kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
+| 42 | `42_CUSTOM_TECHNIQUES.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/42_CUSTOM_TECHNIQUES.md | **Teknik & Jurus Kustom** — buatan pemain/Admin, dicatat di sini agar resmi |
+| — | `README.md` | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/README.md | Dokumentasi setup untuk manusia (jarang perlu difetch AI) |
 
 ### 1a. Direktori Sekte, Dojo & Organisasi (24 File Individual)
 
@@ -55,54 +55,54 @@
 **Central Plains**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Heavenly Sword Pavilion | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/14_HEAVENLY_SWORD_PAVILION.md |
-| Profound Heaven Sect | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/15_PROFOUND_HEAVEN_SECT.md |
-| Silver Rain Sword School | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/16_SILVER_RAIN_SWORD_SCHOOL.md |
-| Dojo Bunga Aprikot | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/17_DOJO_BUNGA_APRIKOT.md |
-| Dojo Godam Besi | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/18_DOJO_GODAM_BESI.md |
+| Heavenly Sword Pavilion | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/14_HEAVENLY_SWORD_PAVILION.md |
+| Profound Heaven Sect | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/15_PROFOUND_HEAVEN_SECT.md |
+| Silver Rain Sword School | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/16_SILVER_RAIN_SWORD_SCHOOL.md |
+| Dojo Bunga Aprikot | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/17_DOJO_BUNGA_APRIKOT.md |
+| Dojo Godam Besi | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/18_DOJO_GODAM_BESI.md |
 
 **Azure Mountain Range**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Golden Bell Monastery | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/19_GOLDEN_BELL_MONASTERY.md |
-| Dojo Pahat Naga | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/20_DOJO_PAHAT_NAGA.md |
+| Golden Bell Monastery | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/19_GOLDEN_BELL_MONASTERY.md |
+| Dojo Pahat Naga | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/20_DOJO_PAHAT_NAGA.md |
 
 **Southern Demon Domain**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Demonic Flame Palace | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/21_DEMONIC_FLAME_PALACE.md |
-| Nine Serpent Den | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/22_NINE_SERPENT_DEN.md |
-| Seven Sins Cult | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/23_SEVEN_SINS_CULT.md |
-| Blood Shadow Alliance | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/24_BLOOD_SHADOW_ALLIANCE.md |
-| Dojo Bayangan Kelam | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/25_DOJO_BAYANGAN_KELAM.md |
+| Demonic Flame Palace | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/21_DEMONIC_FLAME_PALACE.md |
+| Nine Serpent Den | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/22_NINE_SERPENT_DEN.md |
+| Seven Sins Cult | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/23_SEVEN_SINS_CULT.md |
+| Blood Shadow Alliance | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/24_BLOOD_SHADOW_ALLIANCE.md |
+| Dojo Bayangan Kelam | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/25_DOJO_BAYANGAN_KELAM.md |
 
 **Eastern Sea Region**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Jade Purity Palace | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/26_JADE_PURITY_PALACE.md |
-| Dojo Ombak Tenang | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/27_DOJO_OMBAK_TENANG.md |
+| Jade Purity Palace | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/26_JADE_PURITY_PALACE.md |
+| Dojo Ombak Tenang | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/27_DOJO_OMBAK_TENANG.md |
 
 **Northern Desolate Territory**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Whitecloud Medicine Hall | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/28_WHITECLOUD_MEDICINE_HALL.md |
-| Ghost Valley Sect | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/29_GHOST_VALLEY_SECT.md |
-| Dojo Cakar Serigala | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/30_DOJO_CAKAR_SERIGALA.md |
+| Whitecloud Medicine Hall | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/28_WHITECLOUD_MEDICINE_HALL.md |
+| Ghost Valley Sect | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/29_GHOST_VALLEY_SECT.md |
+| Dojo Cakar Serigala | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/30_DOJO_CAKAR_SERIGALA.md |
 
 **Western Sacred Deserts**
 | Sekte/Dojo | Link RAW (langsung klik/fetch) |
 |---|---|
-| Azure Cloud Temple | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/31_AZURE_CLOUD_TEMPLE.md |
-| Dojo Mata Elang Pasir | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/32_DOJO_MATA_ELANG_PASIR.md |
+| Azure Cloud Temple | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/31_AZURE_CLOUD_TEMPLE.md |
+| Dojo Mata Elang Pasir | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/32_DOJO_MATA_ELANG_PASIR.md |
 
 **Lintas Wilayah**
 | Organisasi | Link RAW (langsung klik/fetch) |
 |---|---|
-| Perkumpulan Pisau Sunyi | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/33_PERKUMPULAN_PISAU_SUNYI.md |
-| Kelompok Racun Bayangan | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/34_KELOMPOK_RACUN_BAYANGAN.md |
-| Serambi Seribu Bisik (info broker) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/35_SERAMBI_SERIBU_BISIK.md |
-| Rumah Gadai Giok Sejuk (bank tak resmi) | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/36_RUMAH_GADAI_GIOK_SEJUK.md |
-| Perhimpunan Tabib Pengembara | https://raw.githubusercontent.com/inggo-alvn/jianghu-world/refs/heads/main/37_PERHIMPUNAN_TABIB_PENGEMBARA.md |
+| Perkumpulan Pisau Sunyi | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/33_PERKUMPULAN_PISAU_SUNYI.md |
+| Kelompok Racun Bayangan | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/34_KELOMPOK_RACUN_BAYANGAN.md |
+| Serambi Seribu Bisik (info broker) | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/35_SERAMBI_SERIBU_BISIK.md |
+| Rumah Gadai Giok Sejuk (bank tak resmi) | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/36_RUMAH_GADAI_GIOK_SEJUK.md |
+| Perhimpunan Tabib Pengembara | https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/37_PERHIMPUNAN_TABIB_PENGEMBARA.md |
 
 ---
 
@@ -112,7 +112,7 @@
 |---|---|---|
 | Awal sesi (selalu) | `00_CORE_RULES_AI_GM.md` | Wajib pertama, lihat §0 |
 | Awal sesi (setelah Bootstrap selesai) | `39_CUSTOM_EVENTS.md` | Cek apakah ada event aktif yang memengaruhi dunia |
-| Karakter terdaftar di `players.md`, baru pertama kali dimainkan | `players.md` dan/atau `players/<Nama_Karakter>.md` | Muat data AWAL karakter dari link RAW individual sebagai titik mulai (data statis, bukan save-state) |
+| Karakter terdaftar di `players.md`, baru pertama kali dimainkan OR pemain menanyakan informasi karakter/player lain | `players.md` dan/atau `players/<Nama_Karakter>.md` | Muat/fetch data karakter dari link RAW individual sebagai titik mulai atau referensi informasi pemain/karakter lain |
 | Melanjutkan karakter yang sudah pernah dimainkan | — | Pakai blok "Profil Karakter" terakhir yang ditempel/ada di riwayat chat — **jangan** fetch `players.md` / `players/` |
 | Karakter benar-benar baru (tidak ada di `players.md`) | — | Ikuti `00` §1.6: minta Nama + Lokasi Awal |
 | Karakter berada/menuju Central Plains | `02_CENTRAL_PLAINS.md` | Termasuk area ibu kota provinsi ini |
