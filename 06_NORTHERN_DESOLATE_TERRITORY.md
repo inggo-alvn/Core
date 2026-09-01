@@ -22,6 +22,7 @@
 - **Eternal Frost Peak** (±1.100 li dari Benteng Beikuan) — puncak es abadi, suhu ekstrem, hanya kultivator tingkat tinggi yang bisa mendekat.
 - **Bukit Tulang Beku** (±450 li dari Desa Xueying) — makam kuno para jenderal, dianggap berhantu.
 - **Lembah Angin Menjerit** (±600 li dari Benteng Beikuan) — dipakai Ghost Valley Sect untuk ritual tersembunyi, berbahaya bagi kultivator lemah.
+- **Danau Cermin Es (Ice Mirror Lake)** (±1.000 li dari perbatasan / 400 li utara Benteng Beikuan) — danau es terisolasi dengan permukaan es bening bak cermin, tempat bertapa dan pemataan energi spiritual yang tenang.
 
 ### Desa Xueying (400 li dari perbatasan)
 Desa suku pemburu, keras dan tertutup pada orang luar.
@@ -32,11 +33,26 @@ Desa suku pemburu, keras dan tertutup pada orang luar.
 | Pemburu Muda Ah Bing | Pemburu berbakat | 21 | Qi Refining, Puncak | **200** | *Terkaman Serigala Muda* — serangan cepat menerkam dari sisi samping | Pendiam dan tangguh, tak suka basa-basi, langsung bertindak saat berburu |
 
 ### Benteng Beikuan (600 li)
-Kota benteng garis pertahanan utara, tegang sepanjang tahun.
+Kota benteng garis pertahanan utara, tegang sepanjang tahun. Berjarak ±600 li dari perbatasan wilayah barbar dan tepat 400 li ke arah selatan dari Danau Cermin Es. Benteng ini selalu berada dalam status siaga militer di bawah komando Komandan Bei Zhan (Realm 5 / Nascent Soul).
+
+#### 🏮 Paviliun "Jing Han" (静寒)
+Terletak di **Distrik Timur Inti (Inner Eastern District)** Benteng Beikuan, sebuah zona sunyi yang dikhususkan untuk tetua sekte ortodoks aliansi benteng atau kultivator independen (Sanxiu) berkekuatan tinggi yang dihormati garnisun. Bagi penduduk biasa, paviliun ini hanyalah bangunan kayu elegan yang tertutup kabut es dan dilarang didekati. Namun bagi kultivator persepsi Qi, paviliun ini adalah benteng pertahanan teraman di Wilayah Utara Gersang.
+
+- **Topografi Qi & Urat Nadi Yin (Yin Spirit Vein):** Ditinggali tepat di atas simpul kecil urat nadi spiritual langka yang memancarkan energi Yin murni dan dingin — alasan utama Nona Ji Yue memilih tempat ini untuk menyempurnakan Dao es-nya.
+- **Formasi Pelindung:** Empat batu langkah utama di halaman depan merupakan node dari *Formasi Ilusi & Pembunuh Tingkat Menengah*. Siapa pun yang melangkah masuk dengan niat membunuh (*killing intent*) akan langsung memicu serangan es yang membekukan darah.
+- **Penjaga Bayangan (Shadow Guards):** Di atas atap genteng, terdapat dua "kehampaan" termal berdenyut lambat — dua pengawal pribadi Ji Yue (Realm 3 Puncak / Realm 4 Awal) yang berjaga 24 jam tanpa berganti shift.
+- **Tata Letak Interior:**
+  - *Halaman Depan:* Ditanami pohon plum tua yang tahan beku.
+  - *Ruang Utama:* Meja kayu cendana tempat Ji Yue biasa menyeduh teh dan menerima tamu/murid.
+  - *Dapur Pribadi:* Kompor spiritual dan peralatan giok putih untuk meracik ramuan atau memasak masakan alkimia.
+  - *Sayap Barat (Ruang Pribadi Ji Yue):* Terlindungi formasi isolasi tebal penembus indra/persepsi Qi biasa.
+  - *Sayap Timur (Kamar Tamu):* Dipan kayu cendana dan kasur bulu rubah tempat beristirahat dan retret kultivasi 7 hari.
 
 | NPC | Peran | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 |---|---|---|---|---|---|---|
 | Komandan Benteng Bei Zhan | Komandan garnisun perbatasan | 50 | Nascent Soul, Awal | **12.500** | *Tombak Penjaga Perbatasan* — tusukan tombak panjang bergaya militer defensif | Tegang dan waspada, mudah curiga pada orang asing, tegas pada disiplin militer |
+| Nona Ji Yue | Pemilik Paviliun "Jing Han" & Kultivator Dao Es | 24 (tampak) | Core Formation, Puncak | **5.000** | *Seni Pedang Embun Salju* — tebasan es Murni dan pembekuan meridian lawan | Anggun, dingin, dan pendiam; menyukai teh dan masakan alkimia, sangat selektif menerima tamu |
+| Pengawal Bayangan Ji Yue (2 Orang) | Penjaga Paviliun "Jing Han" | ??? | Core Formation, Awal | **2.500** | *Tebasan Bayangan Es* — serangan mendadak dari balik kabut es | Berjaga 24 jam di atap genteng tanpa berganti shift, sangat setia dan tidak pernah bersuara |
 | Prajurit Muda Gang Tie | Prajurit garnisun | 20 | Foundation Establishment, Awal | **500** | *Tebasan Pedang Standar* — gerak dasar militer tanpa variasi | Bersemangat tapi gugup, belum berpengalaman perang sesungguhnya |
 
 ### Desa Bingxin (750 li)
