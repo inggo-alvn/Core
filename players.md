@@ -42,6 +42,7 @@
 | **Nafila** | Desa Xueying, Northern Desolate Territory | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Nafila.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Nafila.md) |
 | **Shi Guta** | Lereng Pegunungan Azure, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Shi_Guta.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Shi_Guta.md) |
 | **Seraph** | Puing-puing Desa Runtuh, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Seraph.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Seraph.md) |
+| **Suy** | Tepi Sungai Desa Qingshui, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Suy.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Suy.md) |
 
 *(Admin menambah baris baru di sini dan membuat file di `players/` setiap kali mendaftarkan karakter baru.)*
 
