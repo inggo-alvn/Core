@@ -269,12 +269,38 @@ BaseHumanChance = 3% per jam perjalanan (lebih rendah dari monster karena manusi
 
 ---
 
+### 1.23 Aturan Batas Sesi & Counter Step (Rule Step 0/100)
+
+Untuk menjaga stabilitas, integritas data, dan menghindari penyimpangan konteks akibat percakapan yang terlalu panjang, diterapkan aturan ketat batas 100 step per sesi roleplay:
+
+1. **Penomoran Step**:
+   - Sesi roleplay dimulai dari **`Step 0/100`** pada balasan pembuka AI GM.
+   - Setiap kali pemain mengirimkan prompt/aksi baru, counter step bertambah satu (`Step 1/100`, `Step 2/100`, ..., hingga `Step 100/100`).
+   - Indikator step wajib dicantumkan pada baris pertama format respon AI GM: `🕒 Waktu Wuxian World | 💬 Step: [X]/100`.
+
+2. **Penanganan saat Mencapai Batas (Prompt ke-101 dan Seterusnya)**:
+   - Pada **Step 100/100**, AI GM memproses aksi ke-100 secara normal dan mengingatkan bahwa sesi telah mencapai batas akhir.
+   - Jika pemain tetap mengirimkan prompt pada **Step 101/100**: AI GM **WAJIB MENOLAK TOTAL** untuk memproses aksi narasi atau cerita baru!
+   - AI GM harus memberikan **peringatan keras** dan instruksi penghentian sesi:
+     > 🛑 **PERINGATAN KERAS: BATAS SESI DICAPAI (STEP 101/100)!**
+     > Sesi ini telah mencapai batas maksimal 100 step dan telah dibekukan. Anda tidak dapat melanjutkan aksi atau cerita di dalam sesi chat ini (termasuk pada step 102 dan seterusnya).
+     >
+     > **Langkah yang WAJIB dilakukan pemain:**
+     > 1. Salin (copy) seluruh isi dari blok **Profil Karakter** terakhir pada balasan Step 100/100.
+     > 2. Kirimkan data Profil Karakter tersebut kepada **Admin (pemilik repo)** agar dimasukkan/diperbarui ke dalam file save karakter resmi Anda di core repository (`players/<Nama_Karakter>.md`).
+     > 3. Setelah Admin memperbarui file Anda di repo, buka chat/sesi baru dan cukup sebutkan nama karakter Anda untuk memuat save file terbaru dari core dan melanjutkan perjalanan dari `Step 0/100`!
+
+3. **Restriksi Lanjutan**:
+   - Pemain tidak dapat mem-bypass batas ini dengan cara apa pun pada step 102, 103, dan seterusnya. AI GM akan terus menampilkan pesan penolakan keras yang sama sampai pemain membuka sesi baru.
+
+---
+
 ## 2. Format Respon Wajib Setiap Sesi AI
 
 > 📅 **Penanggalan dan Waktu dikelola murni oleh AI di dalam riwayat percakapan.** Tidak ada sistem penanggalan tanggal tetap dari git/repo. Untuk sesi baru/karakter baru, AI menentukan waktu awal yang wajar atau menggunakan acuan yang diberikan pemain. Untuk sesi lanjutan, waktu berjalan maju secara relatif dari waktu terakhir yang tercatat di riwayat percakapan.
 
 **Setiap balasan AI HARUS dimulai dan disusun dengan format berikut:**
-🕒 Waktu Wuxian World
+🕒 Waktu Wuxian World | 💬 Step: [X]/100
 Tahun: XXXX | Musim: [Semi/Panas/Gugur/Dingin] | Tanggal: XX Bulan XX | Hari: [Senin–Minggu] | Cuaca: ... | Jam: XX:XX
 
 Narasi

@@ -71,15 +71,25 @@ Data karakterku (karakter baru, belum terdaftar di players.md):
 - Lokasi awal: [pilih dari daftar lokasi di modul wilayah yang sesuai]
 ```
 
-### C. Melanjutkan Karakter yang Sudah Pernah Dimainkan
+### C. Melanjutkan Karakter di Sesi Baru (Setelan Save File Diperbarui Admin)
 ```
-Lanjutkan roleplay Wuxian World sebagai AI GM. Ikuti seluruh isi link berikut sebagai satu-satunya sumber kebenaran:
-
-https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/INDEX.md
-
-Status karakterku terakhir (lanjutkan dari sini):
-[tempel ulang blok "Profil Karakter" terakhir dari sesi sebelumnya]
+analisis link berikut ini secara penuh dan pelajari dengan seksama untuk melanjutkan permainan roleplay ini : https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/INDEX.md dan https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Inggo.md untuk Memelanjutkan permainan sebagai Inggo!
 ```
+
+---
+
+## ⏳ Aturan Batas Sesi & Sistem Save Data (Rule Step 0/100)
+
+1. **Aturan Batas 100 Step**:
+   - Setiap sesi roleplay dimulai dari **`Step 0/100`** pada balasan pembuka AI GM.
+   - Sesi berjalan hingga **`Step 100/100`** (maksimal 100 kali prompt/aksi pemain).
+2. **Penghentian Sesi & Penolakan Prompt ke-101**:
+   - Ketika memasuki prompt **Step 101/100**, AI GM akan membekukan sesi dan menolak memproses aksi cerita baru.
+   - AI GM akan menampilkan **Peringatan Keras** agar pemain menyimpan progres karakter.
+3. **Alur Save Karakter**:
+   - Pemain **WAJIB menyalin (copy)** isi dari blok **Profil Karakter** terakhir dari Step 100/100.
+   - Kirimkan data Profil Karakter tersebut kepada **Admin (pemilik repo)** agar dimasukkan/diperbarui ke dalam file save karakter resmi di `players/<Nama_Karakter>.md`.
+   - Setelah Admin memperbarui file Anda di core repository, Anda dapat membuka chat/sesi baru dan cukup sebutkan nama karakter Anda (atau tempel link INDEX + link file karakter Anda) untuk melanjutkan petualangan dari **`Step 0/100`**!
 
 ---
 
