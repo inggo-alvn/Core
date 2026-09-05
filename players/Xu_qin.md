@@ -1,40 +1,48 @@
 # 👤 Xu qin
 
 > **Data Karakter (Save State / Profil Karakter)** — Dikelola Admin.
-> **Rujukan silang:** `00_CORE_RULES_AI_GM.md` §1.6 & §1.10, `02_CENTRAL_PLAINS.md`, `17_DOJO_BUNGA_APRIKOT.md`
+> **Rujukan silang:** `00_CORE_RULES_AI_GM.md` §1.6 & §1.10, `02_CENTRAL_PLAINS.md`, `17_DOJO_BUNGA_APRIKOT.md`, `18_DOJO_GODAM_BESI.md`
 
 ---
 
 **Nama Karakter:** Xu qin
-**Lokasi:** Persimpangan Jalan Menuju Luoyang Kecil (Warung Persimpangan), Central Plains
-**Realm & Stage:** Mortal Foundation (Fondasi Fana), Awal — Qi Cap: 10
-**Hukum Kultivasi:** Hukum Dao Abadi (Varian Pedang)
-**Law Origin:** Jalur Guru (Guru Li Xingchun) — Diberikan manual *Napas Bunga Aprikot* dan dipandu langsung untuk membuka meridian menggunakan energi *Daging Rusa Rohani Kering* (Tier 1 Spirit Beast Jerky) di ruang meditasi dojo.
-**Sekte/Afiliasi:** Dojo Bunga Aprikot (Murid Percobaan / Pelayan)
+**Lokasi:** Desa Tiedao, Central Plains (sedang di Lapangan Uji Dojo Godam Besi)
+**Realm & Stage:** Pembentukan Fondasi (Foundation Establishment), Awal (Early Stage) — Qi Cap: 500
+**Hukum Kultivasi:** Hukum Dao Abadi (Varian Pedang Bunga Aprikot)
+**Law Origin:** Jalur Guru — Li Xingchun (Kepala Dojo Bunga Aprikot, diajarkan secara langsung melalui interaksi dan latihan nyata di Desa Xingcun).
+**Sekte/Afiliasi:** Dojo Bunga Aprikot (Murid Inti) & Vanguard Kekaisaran (Pemegang Token Delegasi).
 
-**Kondisi:** HP 98/100 · Qi 1/10 · Stamina 40/100 · Satiety 35% · Bahu Kanan Ter-tempa Rohani (Spirit Tempered) · Otot Kaki & Punggung Nyeri (Fase Regenerasi akibat katabolisme/kelaparan kritis saat kerja berat) · Karma Netral
+**Kondisi:** HP 250/250 · Qi 500/500 · Stamina 130/150 *(Catatan: Max stamina karakter ini adalah 150 sesuai formula sistem)* · Satiety 92% · Kondisi: Sinkronisasi Sempurna dengan Peralatan Baru · Karma: 162 Merit Points (Positif/Ortodoks).
 
 **Currency:**
-- Uang Saku: 7 Tael Tembaga
-- Hutang Perbendaharaan Dojo: -100 Tael Tembaga (1 Tael Perak) — Jatuh Tempo: 3 Bulan (Jika gagal lunas, konsekuensi menjadi pelayan seumur hidup).
+- 94 Tael Perak
+- 65 Tael Tembaga
+- Hutang: 0 Tael (LUNAS)
 
 **Equipment (terpakai/digenggam):**
-- **Senjata:** Tongkat Pengukuran Kain / Kayu Solid — Tier 1 Fan-Grade, dibeli dari pedagang kain yang dirampok di persimpangan (Senjata tumpul jarak dekat, padat dan berat).
-- **Zirah/Pelindung:** Pakaian Katun Lusuh — Fan-Grade (Agak bersih, berbau asap dapur dan keringat kering).
-- **Aksesoris:** Kain Perban Katun Bersih di Kedua Telapak Tangan.
+- **Senjata:** Pedang Giok Meteorit Taring Macan (Tier-3, Xuan-Grade) — *Hasil upgrade oleh Tie Gang (Dojo Godam Besi) menggunakan Pedang Giok Air Meteorit lama + Taring Macan Bertuah + Batu Inti Kera. Efisiensi Qi es +30%, getaran stabil.*
+- **Zirah/Pelindung:** Zirah Kulit Macan Kawat (Tier-3, Xuan-Grade) — *Hasil upgrade oleh Tie Gang. Gabungan Zirah Kulit Pengembara + Jubah Sutra Kawat + Kulit Macan Gunung & Kulit Kera Batu. Tahan benturan fisik dan menusuk Qi.*
+- **Aksesoris:** Gelang Lengan Besi Dingin (Tier-2, Xuan-Grade).
 
-**Inventory Awal (dibawa, tidak terpakai):**
-- Botol Minyak Urap Kasar × 1 — Sisa 20%, Tier 1 Fan-Grade (Beli di apotek Desa Xingcun).
-- Kantong Air Kulit × 1 — Terisi Penuh.
-- Gulungan Bambu: Napas Bunga Aprikot × 1 — Pemberian pribadi Guru Li Xingchun.
+**Inventory Awal / Storage (dibawa, tidak terpakai):**
+- 1x Batu Giok Kasar (Tier-3, Huang-Grade) — *Dibeli dari Lao Ma di Pasar Tiedao, telah terselaraskan Qi melalui meditasi.*
+- 1x Peta Mental Markas Bandit & Lokasi Jarahan — *Intelijen dari pengintaian di lereng Tri-Sect Mountain.*
+- 1x Jebakan Longsoran Selatan — *Masih aktif terpasang di gerbang kamp transit Nine Serpent Den (Lembah Ular).*
+- 1.5x Botol Pil Penetral Racun Ringan (Tier-2) — *Sisa dari misi penyelamatan.*
+- 1x Catatan Intelijen Feng Qing.
+- 1x Golok Racun (Tier-1).
+- 1x Inti Esensi Api Murni (Tier-3).
+- 1x Gulungan Pujian Kekaisaran (Resmi) — *Dokumen bermeterai dari Magistrate Luoyang Kecil.*
+- Minyak Urap Giok Hangat [5%] | Minyak Gosok Akar Merah [20%].
 
-**Teknik Awal / Dipelajari:**
-- **Jurus Pedang Bunga Gugur** (Tingkat Pemula) — Diajarkan oleh Ah Jian di halaman dojo (Gerakan lembut, mengalihkan gaya, menyerang dari titik buta).
-- **Napas Bunga Aprikot** (Tingkat Pemula) — Manual Hukum Dao Abadi varian pedang dojo.
-- **Gerak Dasar Pedang Non-Formal** (Tingkat Mahir / Sempurna) — Dilatih secara mandiri dan diuji dengan beban ekstrem (Pedang Kayu Besi Hitam).
-- **Pasif/Foundational:** Pernapasan Fana Dasar, Ketahanan Otot Inti (Core), Keseimbangan Unilateral, Penguasaan Rantai Kinetik Mortal.
+**Teknik:**
+- **Jurus Pedang Bunga Gugur** (Sumber: Guru Li Xingchun) — *Efisiensi & presisi meningkat drastis berkat sinkronisasi dengan pedang baru.*
+- **Napas Bunga Aprikot** (Sumber: Dojo Bunga Aprikot) — *Kualitas Qi Yin Berat.*
+- **Mantra Jinak Dasar (Tier-2)** ➔ **Refinemen: Resonansi Jiwa** (Sumber: Latihan mandiri dengan Spirit Beast Qingyu).
+- **Langkah Ringan Kelopak** (Sumber: Adaptasi dari Gerak Dasar Pedang Non-Formal).
+- **Pasif:** Ketahanan Tubuh Giok Cair (Tahap 1 - Menengah), Penguasaan Tusukan Pembeku Jantung, Pencerahan Dao (Kondensasi Embun).
 
 **Latar Belakang & Kepribadian:**
-Xu Qin adalah seorang pemuda asing yang tiba-tiba terlempar ke dunia Jianghu tanpa mengetahui asal-usulnya. Ia terbangun seorang diri di Desa Xingcun tanpa uang, senjata, keluarga, guru, maupun kemampuan bela diri. Sebagai seorang Mortal, ia memulai hidup dari titik paling rendah. Untuk bertahan hidup, Xu Qin bekerja sebagai buruh kasar sambil mengamati dunia Jianghu dan mempelajari dasar-dasar kehidupan di dalamnya. Ia tidak memiliki bakat luar biasa ataupun warisan tersembunyi. Namun, ia memiliki tekad yang luar biasa keras, disiplin tinggi, kesabaran, serta keinginan kuat untuk menjadi kuat.
+Xu Qin awalnya adalah seorang pemuda asing yang terlempar ke dunia Jianghu tanpa ingatan asal-usul maupun kemampuan bela diri. Mengawali hidupnya dari titik terendah sebagai buruh kasar dan pelayan percobaan di Dojo Bunga Aprikot, ia rela menanggung latihan fisik ekstrem dan kelaparan kritis demi melunasi hutang 1 Tael Perak. Tekad baja dan kejujurannya menarik perhatian Guru Li Xingchun yang kemudian membimbingnya secara pribadi.
 
-Ia diterima di Dojo Bunga Aprikot sebagai pelayan sekaligus murid percobaan dan rela menanggung siksaan fisik ekstrem (seperti latihan asimetris, menahan beban statis kayu besi hitam, hingga kelaparan kritis) demi membuktikan bahwa "wadah" fisiknya layak diisi oleh Qi. Motivasinya saat ini adalah melunasi hutang 1 Tael Perak (100 Tael Tembaga) kepada perbendaharaan dojo yang diberikan oleh Guru Li Xingchun sebagai biaya penyelamatan nyawanya menggunakan Daging Rusa Rohani. Ia sangat menghormati Guru Li dan Paman Fu, namun berhati-hati terhadap Ah Jian. Setelah menyaksikan pemalakan di persimpangan jalan menuju Luoyang Kecil, Xu Qin menyadari realitas kejam Jianghu: tanpa kekuatan (Qi dan senjata), fondasi fisiknya saja tidak cukup untuk bertahan hidup dari preman jalanan bersenjata tajam.
+Kini Xu qin berkembang menjadi murid inti yang sangat berbakat dan terpercaya dari Dojo Bunga Aprikot, sekaligus memegang gelar resmi sebagai Vanguard Kekaisaran. Ia dikenal sebagai sosok yang tenang, strategis, berprinsip, dan sangat menghargai kejujuran serta keadilan. Hal ini terbukti dari keberhasilannya membongkar jaringan penculikan *Nine Serpent Den* di Lembah Ular, menyelamatkan 20 anak, dan mengamankan intelijen krusial tanpa terjebak dalam keserakahan. Ia memiliki ikatan batin yang kuat dengan Naga Sungai Kecil peliharaannya, Qingyu (Xiaoyu), dan memiliki rasa hormat yang mendalam terhadap gurunya, Li Xingchun. Motivasi utamanya adalah memperkuat fondasi kultivasinya dan melindungi orang-orang yang ia sayangi.
