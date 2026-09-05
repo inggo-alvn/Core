@@ -28,20 +28,20 @@
 | **Tji An Coek** | Pondok Tabib Gunung, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Tji_An_Coek.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Tji_An_Coek.md) |
 | **Nox** | Dojo Bunga Aprikot (Desa Xingcun), Central Plains | Qi Refining, Awal | Dojo Bunga Aprikot (Murid Resmi) | [`Nox.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Nox.md) |
 | **Ghi** | Desa Qingshui, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Ghi.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Ghi.md) |
-| **Tatsuya / Yin Zheng** | Kota Luoyang Kecil, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Tatsuya_Yin_Zheng.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Tatsuya_Yin_Zheng.md) |
+| **Tatsuya / Yin Zheng** | Heavenly Sword Pavilion (Central Plains) | Qi Refining, Awal - Puncak | Heavenly Sword Pavilion (Murid Luar) | [`Tatsuya_Yin_Zheng.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Tatsuya_Yin_Zheng.md) |
 | **Wang Zixiin** | Desa Luoye, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Wang_Zixiin.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Wang_Zixiin.md) |
 | **Ying Luo** | Desa Qingfeng, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Ying_Luo.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Ying_Luo.md) |
-| **Yūmei** | Kabin Kayu Besi, Northern Desolate Territory | Foundation Establishment, Menengah | Sanxiu (Murid Pribadi Ji Yue) | [`Yūmei.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Y%C5%ABmei.md) |
+| **Yūmei** | Mirror Lake Inn, Northern Desolate Territory | Core Formation, Awal | Sanxiu / Pemilik Mirror Lake Inn | [`Yūmei.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Y%C5%ABmei.md) |
 | **Lu Qingxuan** | Desa Xingcun, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Lu_Qingxuan.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Lu_Qingxuan.md) |
 | **Paijo** | Desa Tiedao, Central Plains | Mortal Foundation, Awal | Dojo Godam Besi (Murid Magang) | [`Paijo.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Paijo.md) |
-| **Azmud** | Desa Heiyan, Southern Demon Domain | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Azmud.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Azmud.md) |
-| **Xu qin** | Persimpangan Luoyang Kecil, Central Plains | Mortal Foundation, Awal | Dojo Bunga Aprikot (Murid Percobaan) | [`Xu_qin.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Xu_qin.md) |
+| **Azmud** | Desa Heiyan, Southern Demon Domain | Mortal Foundation, Awal | Sanxiu / Petani Herbal Rahasia | [`Azmud.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Azmud.md) |
+| **Xu qin** | Desa Tiedao, Central Plains | Foundation Establishment, Awal | Dojo Bunga Aprikot (Murid Inti) & Vanguard Kekaisaran | [`Xu_qin.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Xu_qin.md) |
 | **Lu Chen** | Desa Xingcun, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Lu_Chen.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Lu_Chen.md) |
 | **Inggo** | Hutan Bambu Berbisik, Azure Mountain Range | Core Formation, Awal | Sanxiu (tanpa sekte) | [`Inggo.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Inggo.md) |
 | **Yuma** | Desa Heiyan, Southern Demon Domain | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Yuma.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Yuma.md) |
-| **Nafila** | Desa Xueying, Northern Desolate Territory | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Nafila.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Nafila.md) |
-| **Shi Guta** | Lereng Pegunungan Azure, Azure Mountain Range | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Shi_Guta.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Shi_Guta.md) |
-| **Seraph** | Puing-puing Desa Runtuh, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Seraph.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Seraph.md) |
+| **Nafila** | Perbatasan Central Plains & Azure Mountain Range | Foundation Establishment, Awal | Sanxiu (Kultivator Independen) | [`Nafila.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Nafila.md) |
+| **Shi Guta** | Dojo Pahat Naga, Azure Mountain Range | Mortal Foundation, Awal | Dojo Pahat Naga (Pemahat Magang) | [`Shi_Guta.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Shi_Guta.md) |
+| **Seraph** | Kota Luoyang Kecil, Central Plains | Qi Refining, Puncak | Dojo Bunga Aprikot (Murid Senior) | [`Seraph.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Seraph.md) |
 | **Suy** | Tepi Sungai Desa Qingshui, Central Plains | Mortal Foundation, Awal | Sanxiu (tanpa sekte) | [`Suy.md`](https://raw.githubusercontent.com/inggo-alvn/Core/refs/heads/main/players/Suy.md) |
 
 *(Admin menambah baris baru di sini dan membuat file di `players/` setiap kali mendaftarkan karakter baru.)*
